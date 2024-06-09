@@ -1,0 +1,23 @@
+{
+  "name": "esm",
+  "version": "1.0.0",
+  "description": "Домашнее задание к лекции «Модули»",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cen-2-rion/ESM.git"
+  },
+  "author": "Cen-2-rion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cen-2-rion/ESM/issues"
+  },
+  "homepage": "https://github.com/Cen-2-rion/ESM#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
