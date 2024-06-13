@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "live-server",
-    "build": "webpack --mode=production"
+    "serve": "live-server dist/",
+    "build": "webpack --mode=production",
+    "start": "concurrently \"webpack --mode=production\" \"live-server dist/\""
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/Cen-2-rion/ESM#readme",
   "devDependencies": {
+    "concurrently": "^8.2.2",
     "html-webpack-plugin": "^5.6.0",
     "live-server": "^1.2.2",
     "webpack": "^5.92.0",
